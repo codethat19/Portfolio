@@ -1,94 +1,123 @@
+/*HTML Elements Start----------------------------------------------------*/
+
 body {
-  background-color: #E8F9FD;
-  color: #40514E;
+  background-color: #222831;
+  color: #FFD460;
+  font-family: 'Montserrat', serif;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
-
 h1 {
-  margin: 50px auto 0 auto;
-  color: #66BFBF;
-  font-size: 4.5rem;
+  color: #0AA1DD;
   font-family: 'Dancing Script', cursive;
-  line-height: 5;
+  font-size: 4.5rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
   text-align: center;
 }
-
 h2 {
-  color: #66BFBF;
+  color: #0AA1DD;
   font-size: 1.5rem;
-  font-weight: normal;
   padding-bottom: 10px;
 }
-
 h3 {
-  color: #11999E;
-
+  color: #79DAE8;
 }
-p{
+p {
+  color: #EEEEEE;
+  font-weight: bold;
   line-height: 2;
 }
-.intro{
+hr {
+  border: dotted #79DAE8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  color: #E8F9FD;
+  font-family: 'Montserrat', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #79DAE8;
+}
+
+/*HTML Elements Over----------------------------------------------------*/
+
+/*Class Elements Start----------------------------------------------------*/
+.copyright {
+  color: #E8F9FD;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.intro {
   width: 30%;
-  margin: auto;
+  margin: auto auto 90px auto;
+}
+.skill-info {
+    width: 50%;
+margin: 10px auto 10px auto;
 }
 .mern-pic {
   width: 25%;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.se {
   float: right;
-  width: 20%;
+
   margin-left: 30px;
   margin-bottom: 30px;
 }
+.se {
 
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+
+}
 .skill-row {
-
   width: 50%;
-  margin: 100px auto 100px auto;
+  overflow: auto;
+  margin: 10px auto 10px auto;
+  text-align: right;
+}
+.skill-row2 {
+  width: 50%;
+  overflow: auto;
+  margin: 100px auto;
   text-align: left;
 }
-
 .top-container {
   padding-top: 100px;
   position: relative;
 }
-
 .middle-container {
-  margin:100px 0;
-
+  margin: 100px 0 200px 0;
 }
-
 .bottom-container {
-  background-color: #79DAE8;
+  background-color: #0AA1DD;
+  padding: 50px 0 20px;
 }
-
 .profile-pic {
   height: 200px;
   width: 200px;
   border-radius: 100px;
 }
-
 .designation {
   text-decoration: underline;
 }
-
 .bottom-cloud {
   position: absolute;
   left: 250px;
 }
-
 .top-cloud {
   position: absolute;
   right: 200px;
   top: 40px;
 }
-
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -105,7 +134,6 @@ p{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -115,3 +143,5 @@ p{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+/*Class Elements Over----------------------------------------------------*/
